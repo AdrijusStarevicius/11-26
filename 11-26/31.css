@@ -1,0 +1,64 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+  margin: 0;
+  padding: 30px;
+  text-align: center;
+}
+
+h1 {
+  color: #333;
+}
+
+form {
+  margin: 25px;
+}
+
+input {
+  padding: 12px;
+  width: 280px;
+  font-size: 16px;
+}
+
+button {
+  padding: 12px 22px;
+  background-color: #222;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #555;
+}
+
+#galerija {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 15px;
+  margin-top: 30px;
+}
+
+#galerija img {
+  width: 100%;
+  height: 230px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.nuotrauka {
+  background-color: white;
+  padding: 8px;
+  border-radius: 8px;
+}
+
+.nuotrauka a {
+  color: #333;
+  text-decoration: none;
+}
+
+#zinute {
+  margin-top: 20px;
+  font-size: 18px;
+}
